@@ -16,6 +16,22 @@ source  ../../virtualenvs/augur-explorer/bin/activate
 pip install -r requirements.txt --upgrade
 ```
 
+## Create a read only user on your augur database, like this: 
+```
+CREATE USER chaoss WITH PASSWORD 'port88';
+GRANT CONNECT ON DATABASE augur TO chaoss;
+GRANT USAGE ON SCHEMA augur_data TO chaoss;
+GRANT USAGE ON SCHEMA spdx TO chaoss;
+GRANT USAGE ON SCHEMA augur_operations TO chaoss;
+GRANT SELECT ON ALL TABLES IN SCHEMA augur_data TO chaoss;
+GRANT SELECT ON ALL TABLES IN SCHEMA spdx TO chaoss; 
+GRANT SELECT ON ALL TABLES IN SCHEMA augur_operations TO chaoss;
+ALTER DEFAULT PRIVILEGES IN SCHEMA augur_data
+GRANT SELECT ON TABLES TO chaoss;
+
+```
+
+
 ## Augur Database Credentials
 In the directory where you want to run Jupyter Lab from, create a file called "config.json": 
 ```
