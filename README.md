@@ -31,7 +31,6 @@ GRANT SELECT ON TABLES TO chaoss;
 
 ```
 
-
 ## Augur Database Credentials
 In the directory where you want to run Jupyter Lab from, create a file called "config.json": 
 ```
