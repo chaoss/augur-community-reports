@@ -1,6 +1,6 @@
 {
     "connection_string": "sqlite:///:memory:",
-    "database": "augur",
+    "database": "augur_goggins_four",
     "host": "beastmode.augurlabs.io",
     "password": "port88",
     "port": 5433,

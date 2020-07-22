@@ -1,10 +1,10 @@
 {
     "connection_string": "sqlite:///:memory:",
-    "database": "augur_mine",
-    "host": "servernameorip.augurlabs.io",
-    "password": "<your password>",
+    "database": "augur_goggins_four",
+    "host": "beastmode.augurlabs.io",
+    "password": "port88",
     "port": 5433,
     "schema": "augur_data",
-    "user": "augur",
+    "user": "chaoss",
     "user_type": "read_only"
 }
