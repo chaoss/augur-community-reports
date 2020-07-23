@@ -13,7 +13,7 @@ git clone https://github.com/augurlabs/augur-explorer
 cd augurlabs/augur-explorer
 source activate ../../virtualenvs/augur-explorer/bin/activate
 source  ../../virtualenvs/augur-explorer/bin/activate
-pip install -r requirements.txt --upgrade
+pip install -r requirements.txt
 ```
 
 ## Create a read only user on your augur database, like this: 
