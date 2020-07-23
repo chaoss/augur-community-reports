@@ -1,10 +1,10 @@
 {
     "connection_string": "sqlite:///:memory:",
-    "database": "augur_osshealth",
-    "host": "beastmode.augurlabs.io",
-    "password": "port88",
+    "database": "augur_jenkins",
+    "host": "mudcats.augurlabs.io",
+    "password": "mcguire18",
     "port": 5433,
     "schema": "augur_data",
-    "user": "chaoss",
+    "user": "augur",
     "user_type": "read_only"
 }
