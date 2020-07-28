@@ -1,9 +1,11 @@
-# augur-community-reports
-Building reports from the Augur database schema is an important way for cataloging questions that our users ask, as well as how we about using them. Over time, I expect these reports to evolve toward standard APIS in Augur. This is a repository for engaged requirements gathering in the agile spirit. 
+# Community Reports
+Building reports from the Augur database schema is an important way for catalogouing questions that our users ask, as well as how we can make the most of the extensive, validated data Augur gathers. Everything is not "dashboard material". Over time, reports people find useful will become APIS in Augur that can be used to construct automated community reports. This is a repository for engaged requirements gathering in the agile spirit. 
 
-The directories labeled "report" are for "reports" for one enterprise or project. The goal is to then build generalized augur queries/APIs, etc, and make them available as tools. 
+The template directory is where we begin to understand what the reports "are", as we expect individual users to create their own directories where they make new reports, work with us to create new reports, and then share them with the CHAOSS community. The goal is to then build generalized augur queries/APIs, etc, and make them available as tools. 
 
-The directories labeled "research" are for research paper related code that uses Augur. 
+## Identifying Repository ID's
+
+After finishing setup, [use the START_HERE.ipynb file to identify the Repository ID's available in your database.](./START_HERE.ipynb). You will, in most cases, be interested in a subset of all available repositories at any given moment, and this notebook lets you grab the ID info you will need to run those reports.
 
 # Setup
 ## Prerequisites
@@ -112,5 +114,3 @@ In both the pull request and contributor templates the control cell is used to c
 
 ### Variables for Pull Request Template
 1. **scatter_plot_outliers_removed**: Indicates the number of outliers you would like to remove on the days_to_first_response scatter plot. When you have a small number of outliers, this variable is useful for improving the utility of the visualizations. 
-
-
