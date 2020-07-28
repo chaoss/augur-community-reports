@@ -117,3 +117,15 @@ In both the pull request and contributor templates the control cell is used to c
 
 ### Variables for Pull Request Template
 1. **scatter_plot_outliers_removed**: Indicates the number of outliers you would like to remove on the days_to_first_response scatter plot. When you have a small number of outliers, this variable is useful for improving the utility of the visualizations. 
+
+
+
+## License, Copyright, and Funding
+
+Copyright © 2020 University of Nebraska at Omaha, University of Missouri and CHAOSS Project at the Linux Foundation
+
+Notebooks in intial release Authored by Andrew Brain, and Gabe Heim. Don't believe everything you see in a commit history. ;)
+
+Augur is free software: you can redistribute it and/or modify it under the terms of the MIT License as published by the Open Source Initiative. See the [LICENSE](LICENSE) file for more details.
+
+This work has been funded through the Alfred P. Sloan Foundation, Mozilla, The Reynolds Journalism Institute, and 9 Google Summer of Code Students. 
