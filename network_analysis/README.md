@@ -37,7 +37,7 @@ This project contains some  network experiments conducted on cleaned datasets.
 
 The heterogeneous network schema is showing below.  There are 6 objects (nodes) in this schema,  namely *organization*, *repository*, *issue*, *pull request*, *contributors*,  *files*. Each pair of nodes can be connected through corresponding meta relation.  For organizations we care about, we can get the network instance which contains different semantics according to the network schema and corresponding meta relations.  This project focused on mate relation ***"organization-repository-PR-contributors"*** .
 
-![github_network_schema](./static/pics/Github_network_schema.png)
+![github_network_schema](./static/Github_network_schema.png)
 
 ### Data Source
 
@@ -49,7 +49,7 @@ There are over 50 million repositories on GitHub. In order to make experiments f
 
 The figure showing below illustrates Top 1,000 organizations on GitHub. We first calculate the activity score for a single repositories according to the GitHub event log data in 2019. Then we group  those repositories by their organization name and simply sum the score of each repository.  The red line indicate the number of repositories of each organization whereas the blue line indicate the sum  activity score of corresponding organization. 
 
-![orgnizations_ranking](./static/pics/orgnization_ranking.png)
+![orgnizations_ranking](./static/orgnization_ranking.png)
 
 ### Pull Request-Contributor Network
 
@@ -57,9 +57,9 @@ As a illustration in this project, I just construct the networks based on the **
 
 If we project the whole network with the contributor node set, we can get a simple contributor network contains collaboration patterns based on pull request of those organizations. The pictures showing below gives the largest connected component ratio and the number of contributors of  the growing contributor network.  It's clear that with more and more organizations get involved in the network, the number of contributors growth almost linearly and most of them connected with each other in a large network. They are not isolated with each other. We also show that the network average node degree converges to about 7 with the network growths bigger.
 
-![](./static/pics/contributor_network_lcc.png)
+![](./static/contributor_network_lcc.png)
 
-![](./static/pics/contributor_network_noc.png)
+![](./static/contributor_network_noc.png)
 
 ***2019_Top10000_org_pr_bipartite_network_edges.csv*** and ***2019_Top10000_org_pr_bipartite_network_nodes.csv*** is the whole bipartite network constructed with the Top 10,000 organizations. There are about 140,000 repositories get involved and millions of nodes in this network dataset. 
 
@@ -71,9 +71,9 @@ For contributor node, there are collaboration patterns can be represented by bip
 
 Graph Neural Networks (GNNs) are an effective framework for representation learning of graphs. GNNs follow a neighborhood aggregation scheme, where the representation vector of a node is computed by recursively aggregating and transforming representation vectors of its neighboring nodes.  In our PR-contributor network instance, we have two type of nodes: pull request and contributors. Each pull request contains many features(text messages, number of contributors, labels, etc). We can take those different type of information  as a pull request node's representation vector. ***pr_net_GNN.ipynb*** give a example for learning pull-request network embeddings using ***Node2Vec*** method. The network use in this experiment is constructed from ***Augur*** database. There are about 3,000 repositories belonging to 13 different organizations in this database. We label each pull request node with the organization group id. The node features for each pull request node is generated from the  text massage with ***TF-IDF*** methods. More powerful NLP techniques like ***Word2Vec*** can essentially substitute the node feature computing block to generate more representative feature vectors.
 
-![](./static/pics/GNN_architecture.png)
+![](./static/GNN_architecture.png)
 
-![image-20200819191754882](./static/pics/GNN_rooted_sub_tree.png)
+![image-20200819191754882](./static/GNN_rooted_sub_tree.png)
 
 ### How to work with heterogeneous Networks
 
