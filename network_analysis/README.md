@@ -83,5 +83,5 @@ As what we show in our GitHub heterogenous information network schema, if we dir
 
 I am still working on this project. Anyone who interest in this project can check my blog  on [Google Doc](https://docs.google.com/document/d/1xin-pDauXMEqYGYSi67g4536v40h89tUGPaQ7zlGHbo/edit). I will update this repository branch and share latest results of this project to the CHAOSS community.
 
-
+I start a new project to share my database server to everyone who are interested in network analysis or other innovations on GitHub trace data. Please check out the [GitHub analysis report 2020](https://github.com/X-lab2017/github-analysis-report-2020) project and read the documentations to figure out how you can use it. Have fun with this! 
 
