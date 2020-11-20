@@ -2,7 +2,7 @@
     "connection_string": "sqlite:///:memory:",
     "database": "augur_osshealth",
     "host": "beastmode.augurlabs.io",
-    "password": "port88",
+    "password": "covfefe2020",
     "port": 5433,
     "schema": "augur_data",
     "user": "chaoss",
