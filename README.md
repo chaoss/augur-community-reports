@@ -30,11 +30,15 @@ virtualenv --python=python3 virtualenvs/augur-community-reports
 ```
 source  ../../virtualenvs/augur-community-reports/bin/activate
 ```
-5. Install the necessary Python libraries
+5. Install the necessary Python libraries for Python 3.8 and earlier
 ```
 pip install -r requirements.txt
 ```
-6. Change into the directory of your clone
+6. Install the necessary Python libraries for Python 3.8 and earlier
+```
+pip install -r requirements.txt
+```
+7. Change into the directory of your clone
 ```
 cd augur-community-reports
 ```
