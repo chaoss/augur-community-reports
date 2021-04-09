@@ -34,9 +34,9 @@ source  ../../virtualenvs/augur-community-reports/bin/activate
 ```
 pip install -r requirements.txt
 ```
-6. Install the necessary Python libraries for Python 3.8 and earlier
+6. Install the necessary Python libraries for Python 3.9 and later
 ```
-pip install -r requirements.txt
+pip install -r requirements3.9.txt 
 ```
 7. Change into the directory of your clone
 ```
