@@ -51,7 +51,7 @@ kiwisolver==1.2.0
 kubernetes==6.1.0
 lazy-object-proxy==1.4.3
 llvmlite==0.36.0rc1
-lxml==4.5.1
+lxml==4.6.3
 MarkupSafe==1.1.1
 matplotlib==3.4.1
 mccabe==0.6.1
