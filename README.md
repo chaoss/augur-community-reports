@@ -42,6 +42,12 @@ pip install -r requirements3.9.txt
 ```
 cd augur-community-reports
 ```
+8. Run Jupyter Lab
+```
+jupyter lab
+```
+
+# The information below is for advanced users. 
 
 ## Create a read only user on your augur database, like this: 
 ```
@@ -126,7 +132,7 @@ In both the pull request and contributor templates the control cell is used to c
 
 ## License, Copyright, and Funding
 
-Copyright © 2020 University of Nebraska at Omaha, University of Missouri and CHAOSS Project at the Linux Foundation
+Copyright © 2021 University of Nebraska at Omaha, University of Missouri and CHAOSS Project at the Linux Foundation
 
 Notebooks in intial release Authored by Andrew Brain, and Gabe Heim. Don't believe everything you see in a commit history. ;)
 
