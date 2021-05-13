@@ -101,7 +101,7 @@ warnings.filterwarnings('ignore')
 with open("config.json") as config_file:
     config = json.load(config_file)
 
-database_connection_string = 'postgres+psycopg2://{}:{}@{}:{}/{}'.format(config['user'], config['password'], config['host'], config['port'], config['database'])
+database_connection_string = 'postgresql+psycopg2://{}:{}@{}:{}/{}'.format(config['user'], config['password'], config['host'], config['port'], config['database'])
 
 dbschema='augur_data'
 engine = salc.create_engine(
