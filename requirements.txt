@@ -119,7 +119,7 @@ traitlets==4.3.3
 typed-ast==1.4.1
 typing-extensions==3.7.4.2
 tzlocal==2.1
-urllib3==1.26.5
+urllib3>=1.25.2
 visions==0.4.4
 wcwidth==0.2.5
 webdrivermanager==0.8.0
