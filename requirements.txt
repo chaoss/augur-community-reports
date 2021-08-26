@@ -47,7 +47,6 @@ jupyterlab==2.1.5
 jupyterlab-server==1.1.5
 jupyterutils==0.0.4
 kiwisolver==1.2.0
-kubernetes==6.1.0
 lazy-object-proxy==1.4.3
 llvmlite==0.33.0
 lxml==4.6.3
