@@ -1,10 +1,10 @@
 {
     "connection_string": "sqlite:///:memory:",
-    "database": "augur_osshealth",
-    "host": "augur.osshealth.io",
-    "password": "covfefe2020",
-    "port": 5432,
+    "database": "msoft",
+    "host": "microsoft.chaoss.io",
+    "password": "!redmondo",
+    "port": 5433,
     "schema": "augur_data",
-    "user": "chaoss",
+    "user": "ms",
     "user_type": "read_only"
 }
