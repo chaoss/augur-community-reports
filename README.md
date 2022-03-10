@@ -22,6 +22,8 @@ After finishing setup, [use the START_HERE.ipynb file to identify the Repository
 ```
 git clone https://github.com/<your-fork>/augur-community-reports
 ````
+Typically, your fork will take this form: ` git clone https://github.com/<your-github-username>/augur-community-reports`, the only exception being if you create your fork under a GitHub organization. In that case, you would replace `your-github-username` with the name of the organization where you created the fork. 
+
 3. Create your python virtual environment wherever you routinely store them. We use a `virtualenvs` directory. 
 ```
 virtualenv --python=python3 virtualenvs/augur-community-reports
