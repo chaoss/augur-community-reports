@@ -32,13 +32,9 @@ virtualenv --python=python3 virtualenvs/augur-community-reports
 ```
 source  ../../virtualenvs/augur-community-reports/bin/activate
 ```
-5. Install the necessary Python libraries for Python 3.8 and earlier
-```
-pip install -r requirements.txt
-```
 6. Install the necessary Python libraries for Python 3.9 and later
 ```
-pip install -r requirements3.9.txt 
+pip install -r requirements.txt 
 ```
 7. Change into the directory of your clone
 ```
@@ -134,9 +130,9 @@ In both the pull request and contributor templates the control cell is used to c
 
 ## License, Copyright, and Funding
 
-Copyright © 2021 University of Nebraska at Omaha, University of Missouri and CHAOSS Project at the Linux Foundation
+Copyright © 2022 University of Nebraska at Omaha, University of Missouri and CHAOSS Project at the Linux Foundation
 
-Notebooks in intial release Authored by Andrew Brain, and Gabe Heim. Don't believe everything you see in a commit history. ;)
+Notebooks in intial release Authored by Andrew Brain, Sean Goggins, Dawn Foster and Gabe Heim. Don't believe everything you see in a commit history. ;)
 
 Augur is free software: you can redistribute it and/or modify it under the terms of the MIT License as published by the Open Source Initiative. See the [LICENSE](LICENSE) file for more details.
 
