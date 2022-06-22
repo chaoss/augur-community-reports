@@ -30,7 +30,7 @@ virtualenv --python=python3 virtualenvs/augur-community-reports
 ```
 4. Activate your virtual environment
 ```
-source  ../../virtualenvs/augur-community-reports/bin/activate
+source  ./virtualenvs/augur-community-reports/bin/activate
 ```
 6. Install the necessary Python libraries for Python 3.9 and later
 ```
