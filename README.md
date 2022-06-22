@@ -12,7 +12,7 @@ After finishing setup, [use the START_HERE.ipynb file to identify the Repository
 1. Python 3.x
 2. pip
 3. postgres
-    - osx: `brew install postgresql`
+    - osx: `brew install postgresql`. If you get an error about clang `ld: library not found for -lssl`, then you need to point the system to where your openssl stuff is. This may be in `/usr/local/opt/openssl@1.1/`. This command will set the correct headers: `export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"; export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"`
 4. virtualenv package `pip3 install virtualenv`
 5. Install `geckodriver` for your platform if you want to write annotated PNG files out. This is a great way to automate report generation!
     - osx: `brew install geckodriver`
