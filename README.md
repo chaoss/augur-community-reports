@@ -11,10 +11,13 @@ After finishing setup, [use the START_HERE.ipynb file to identify the Repository
 ## Prerequisites
 1. Python 3.x
 2. pip
-3. virtualenv package `pip3 install virtualenv`
-4. Install `geckodriver` for your platform if you want to write annotated PNG files out. This is a great way to automate report generation!
+3. postgres
+    - osx: `brew install postgresql`
+4. virtualenv package `pip3 install virtualenv`
+5. Install `geckodriver` for your platform if you want to write annotated PNG files out. This is a great way to automate report generation!
     - osx: `brew install geckodriver`
     - Linux, Windows: Download the latest geckodriver release for your platform from `https://github.com/mozilla/geckodriver/releases` and follow installation instructions. You can also get source code from that link. 
+
 
 ## Setup augur-community-reports
 1. Fork the augur-community-reports repository
