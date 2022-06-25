@@ -1,7 +1,7 @@
 # Community Reports
-Building reports from the Augur database schema is an important way for catalogouing questions that our users ask, as well as how we can make the most of the extensive, validated data Augur gathers. Everything is not "dashboard material". Over time, reports people find useful will become APIS in Augur that can be used to construct automated community reports. This is a repository for engaged requirements gathering in the agile spirit. 
+Building reports from the Augur database schema is an important way of cataloguing questions that our users ask, as well as how we can make the most of the extensive, validated data Augur gathers. Everything is not "dashboard material". Over time, reports people find useful will become APIS in Augur that can be used to construct automated community reports. This is a repository for engaged requirements gathering in the agile spirit. 
 
-The template directory is where we begin to understand what the reports "are", as we expect individual users to create their own directories where they make new reports, work with us to create new reports, and then share them with the CHAOSS community. The goal is to then build generalized augur queries/APIs, etc, and make them available as tools. 
+The template directory is where we begin to understand what the reports "are", as we expect individual users to create their directories where they make new reports, work with us to create new reports, and then share them with the CHAOSS community. The goal is to then build generalized augur queries/APIs, etc, and make them available as tools. 
 
 ## Identifying Repository ID's
 
@@ -14,7 +14,7 @@ After finishing setup, [use the START_HERE.ipynb file to identify the Repository
 3. virtualenv package `pip3 install virtualenv`
 4. Install `geckodriver` for your platform if you want to write annotated PNG files out. This is a great way to automate report generation!
     - osx: `brew install geckodriver`
-    - Linux, Windows: Download the latest geckodriver release for your platform from `https://github.com/mozilla/geckodriver/releases` and follow installation instructions. You can also get source code from that link. 
+    - Linux, Windows: Download the latest geckodriver release for your platform from `https://github.com/mozilla/geckodriver/releases` and follow installation instructions. You can also get the source code from that link. 
 
 ## Setup augur-community-reports
 1. Fork the augur-community-reports repository
@@ -47,7 +47,7 @@ jupyter lab
 
 # The information below is for advanced users. 
 
-## Create a read only user on your augur database, like this: 
+## Create a read-only user on your augur database, like this: 
 ```
 CREATE USER chaoss WITH PASSWORD 'port88';
 GRANT CONNECT ON DATABASE augur TO chaoss;
@@ -64,7 +64,7 @@ GRANT SELECT ON TABLES TO chaoss;
 ## Augur Database Credentials
 There are two directories the project starts with: 
 1. `CHAOSS-Example`, which is an example against a publicly available Augur database of the CHAOSS Project's organization on GitHub and 
-2. `templates`, which is a copy of the same notebooks found in `CHAOSS-Example` that we intend you to make a copy of for your project, which you can do on most linux based systems by running the command `cp -R templates my-project-name` (consider replacing `my-project-name` with a meaningful project name).
+2. `templates`, which is a copy of the same notebooks found in `CHAOSS-Example` that we intend you to make a copy of for your project, which you can do on most Linux based systems by running the command `cp -R templates my-project-name` (consider replacing `my-project-name` with a meaningful project name).
 3. In your new directory, edit the `config.json` file in a text editor so that it contains credentials for your Augur database. 
 In the directory where you want to run Jupyter Lab from, create a file called "config.json": 
 ```
@@ -115,8 +115,8 @@ In both the pull request and contributor templates the control cell is used to c
 ### Variables in Both Templates
 1. **Repo_set**: Takes a list of repo_ids you need visualizations for.
 2. **Display_grouping**: Can be set as 'repo' or 'competitors'. 'repo' groups the visualizations by repo, and 'competitors' groups the visualizations by chart, so data can be easily compared against other repos.
-3. **Not_alised_repos**: Takes a list of repo_ids you do not want aliased, when display_grouping is set to 'competitors'
-4. **Save_files**: Can be set to True or False, when True all the visualizations will be export as PNG's
+3. **Not_alised_repos**: Takes a list of repo_ids you do not want aliased when display_grouping is set to 'competitors'
+4. **Save_files**: Can be set to True or False, when True all the visualizations will be exported as PNG's
 5. **Begin_date and End_date**: Take a string in date form, i.e. '2020-03-30'
 
 ### Variables for New Contributor Template
@@ -132,7 +132,7 @@ In both the pull request and contributor templates the control cell is used to c
 
 Copyright © 2022 University of Nebraska at Omaha, University of Missouri and CHAOSS Project at the Linux Foundation
 
-Notebooks in intial release Authored by Andrew Brain, Sean Goggins, Dawn Foster and Gabe Heim. Don't believe everything you see in a commit history. ;)
+Notebooks in initial release Authored by Andrew Brain, Sean Goggins, Dawn Foster and Gabe Heim. Don't believe everything you see in a commit history. ;)
 
 Augur is free software: you can redistribute it and/or modify it under the terms of the MIT License as published by the Open Source Initiative. See the [LICENSE](LICENSE) file for more details.
 
