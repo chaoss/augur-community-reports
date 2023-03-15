@@ -1,10 +1,10 @@
 {
     "connection_string": "sqlite:///:memory:",
-    "database": "msoft",
-    "host": "microsoft.chaoss.io",
-    "password": "!redmondo",
-    "port": 5433,
+    "database": "padres",
+    "host": "chaoss.tv",
+    "password": "!baseball21",
+    "port": 5432,
     "schema": "augur_data",
-    "user": "ms",
+    "user": "cali",
     "user_type": "read_only"
 }
