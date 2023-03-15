@@ -130,7 +130,7 @@ In both the pull request and contributor templates the control cell is used to c
 
 ## License, Copyright, and Funding
 
-Copyright © 2022 University of Nebraska at Omaha, University of Missouri and CHAOSS Project at the Linux Foundation
+Copyright © 2023 University of Nebraska at Omaha, University of Missouri, CHAOSS Project at the Linux Foundation, Sean Goggins
 
 Notebooks in intial release Authored by Andrew Brain, Sean Goggins, Dawn Foster and Gabe Heim. Don't believe everything you see in a commit history. ;)
 
