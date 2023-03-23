@@ -1,10 +1,10 @@
 {
     "connection_string": "sqlite:///:memory:",
-    "database": "padres",
+    "database": "astros",
     "host": "chaoss.tv",
-    "password": "!baseball21",
+    "password": "!xpk98T6?bK",
     "port": 5432,
     "schema": "augur_data",
-    "user": "cali",
+    "user": "mel",
     "user_type": "read_only"
 }
