@@ -84,7 +84,7 @@ plotly==5.13.1
 prometheus-client==0.8.0
 prompt-toolkit==3.0.38
 psutil==5.9.4
-psycopg2==2.9.5
+psycopg2-binary
 ptyprocess==0.6.0
 pure-eval==0.2.2
 py==1.10.0
