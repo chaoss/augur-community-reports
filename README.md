@@ -14,7 +14,10 @@ After finishing setup, [use the START_HERE.ipynb file to identify the Repository
 3. virtualenv package `pip3 install virtualenv`
 4. Install `geckodriver` for your platform if you want to write annotated PNG files out. This is a great way to automate report generation!
     - osx: `brew install geckodriver`
-    - Linux, Windows: Download the latest geckodriver release for your platform from `https://github.com/mozilla/geckodriver/releases` and follow installation instructions. You can also get source code from that link. 
+    - Linux, Windows: 
+            You could try either options: 
+                    - Download the latest geckodriver release for your platform from `https://github.com/mozilla/geckodriver/releases` and follow installation instructions. You can also get source code from that link. 
+                    Or, use the `sudo apt-get install firefox-geckodriver` command to install `geckodriver`
 
 ## Setup augur-community-reports
 1. Fork the augur-community-reports repository
