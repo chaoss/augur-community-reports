@@ -32,15 +32,15 @@ virtualenv --python=python3 virtualenvs/augur-community-reports
 ```
 source  ./virtualenvs/augur-community-reports/bin/activate
 ```
+5. Change into the directory of your clone
+```
+cd augur-community-reports
+```
 6. Install the necessary Python libraries for Python 3.9 and later
 ```
 pip install -r requirements.txt 
 ```
-7. Change into the directory of your clone
-```
-cd augur-community-reports
-```
-8. Run Jupyter Lab
+7. Run Jupyter Lab
 ```
 jupyter lab
 ```
