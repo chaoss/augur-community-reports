@@ -130,3 +130,12 @@ dmypy.json
 
 # Images
 *.png
+
+# config files
+config.json
+**/config.json
+
+# .DS_Store
+.DS_Store
+**/.DS_Store
+
